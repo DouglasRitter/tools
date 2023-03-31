@@ -1,3 +1,6 @@
+# A simple Python Script that allows self rotation of IAM keys
+# Creates new keys and sets old key inactive
+
 import boto3
 
 def rotate_aws_credentials(user_name, current_access_key, current_secret_key):
